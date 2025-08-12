@@ -21,6 +21,7 @@ jobs:
       - name: Run backend tests
         run: |
           cd backend
+          chmod +x ./node_modules/.bin/jest
           npx jest --runInBand
       # Puedes agregar aquí pasos para pruebas de frontend si lo deseas
 
