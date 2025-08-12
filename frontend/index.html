@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Micro-Blog ESPE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Micro-Blog Institucional ESPE</h1>
+    <form id="postForm">
+      <textarea id="message" maxlength="280" placeholder="Escribe tu mensaje (máx 280 caracteres)" required></textarea>
+      <button type="submit">Publicar</button>
+    </form>
+    <h2>Mensajes Recientes</h2>
+    <ul id="postsList"></ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
