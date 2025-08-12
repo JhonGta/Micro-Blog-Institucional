@@ -21,7 +21,7 @@ jobs:
       - name: Run backend tests
         run: |
           cd backend
-          npm test
+          npx jest --runInBand
       # Puedes agregar aquí pasos para pruebas de frontend si lo deseas
 
   deploy:
